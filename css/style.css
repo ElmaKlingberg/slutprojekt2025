@@ -1,17 +1,45 @@
 /* STILMALL */
 
-#container 
+#container {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'hd hd hd hd'
+    'nv nv nv nv'
+    'mn mn mn mn'
+    'ft ft ft ft';
+    margin: auto;
+    padding:5px;
+    gap: 2px;
+    background-color: black;
 
+}
 
 header {
+    grid-area: hd;
     background-color: beige;
 }
 
+nav {
+    grid-area: nv;
+    background-color: antiquewhite;
+}
 
-#cardwrapper{
+footer {
+    grid-area: ft;
+    background-color: antiquewhite;
+}
+
+main {
+    grid-area: mn;
+    background-color: antiquewhite;
+}
+
+#cardWrapper{
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap:15px;
     margin: auto;
     justify-content: center;
 }
@@ -20,8 +48,36 @@ section {
     border: 2px solid grey;
     width: 150px;
     height: 225px;
+    border-radius: 10px;
+    
 }
 
 #s1 {
-    background-image: url(../Slutprojekt/filmcover1.jpg);
+    background-image: url(../misc/filmcover1.jpg);
+    background-size: cover;
+}
+
+#s2 {
+    background-image: url(../misc/filmomslag3.jpg);
+    background-size: cover;
+}
+
+#s3 {
+    background-image: url(../misc/filmvover4.jpg);
+    background-size: cover;
+}
+
+#s4 {
+    background-image: url(../misc/filmcover5.jpg);
+    background-size: cover;
+}
+
+#s5 {
+    background-image: url(../misc/bok1.jpg);
+    background-size: cover;
+}
+
+#s6 {
+    background-image: url(../misc/bookcover2.jpg);
+    background-size: cover;
 }
