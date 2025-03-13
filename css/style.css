@@ -10,7 +10,7 @@
     'mn mn mn mn'
     'ft ft ft ft';
     margin: auto;
-    padding:5px;
+    padding:2px;
     gap: 2px;
     background-color: black;
 
@@ -80,4 +80,15 @@ section {
 #s6 {
     background-image: url(../misc/bookcover2.jpg);
     background-size: cover;
+}
+
+#hamburger {
+    /*border: 1px solid #000;*/
+    height: 2rem;
+    width: 2rem;
+}
+
+#hamburger div {
+    border: 1px solid #000;
+    margin: 0.4rem;
 }
