@@ -3,7 +3,7 @@
 #container {
     display: grid;
     height: 100vh;
-    grid-template-rows: auto;
+    grid-template-rows: 17% 6% 60% 17%;
     grid-template-areas: 
     'hd hd hd hd'
     'nv nv nv nv'
@@ -24,6 +24,8 @@ header {
 nav {
     grid-area: nv;
     background-color: antiquewhite;
+    display: flex;
+    gap: 18%;
 }
 
 footer {
