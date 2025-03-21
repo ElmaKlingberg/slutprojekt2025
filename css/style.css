@@ -129,7 +129,17 @@ section {
 #as1 {
     height: 100%;
     width: 260px;
-    background-color: aliceblue;
+    background-color: rgb(47, 15, 15);
+    color: #ffffff;
+    
+    
+    
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 8%;
 }
 
 
