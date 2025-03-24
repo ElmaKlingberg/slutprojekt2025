@@ -165,7 +165,12 @@ ul li:hover {
     flex-shrink: 0;
     margin-bottom: 7%;
     padding: 1%;
+    background-size: cover;
     
+}
+
+.section1 {
+    background-image: url('../misc/filmcover1.jpg');
 }
     
 
