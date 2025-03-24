@@ -142,7 +142,31 @@ h1 {
     padding-bottom: 8%;
 }
 
+ul li:hover {
+    background-color: rgb(143, 40, 66);
+}
 
+#cardWrapper2 {
+    display: flex;
+    justify-content: right;
+    margin-left: 150px;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    gap:16px;
+    margin: auto;
+    
+}
+
+#section2 {
+    border: 2px solid rgb(255, 255, 255);
+    width: 170px;
+    height: 220px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    margin-bottom: 7%;
+    padding: 1%;
+    
+}
     
 
 
