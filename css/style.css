@@ -178,9 +178,40 @@ ul li:hover {
 }
 
 .section3 {
-    background-image: url('../misc/bild2.jpg')
+    background-image: url('../misc/bild2.jpg');
 }
-    
 
+.section4 {
+    background-image: url('../misc/bild3.jpg');
+}
 
+.section5 {
+    background-image: url('../misc/bild4.jpg');
+}
+
+.section6 {
+    background-image: url('../misc/bild5.jpg');
+}
+
+.
+.gomd {
+    display: none;
+
+}
+
+#checklist {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.dropdown {
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
 
