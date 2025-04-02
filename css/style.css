@@ -77,11 +77,13 @@ section {
     color: #ffffff;
     margin-left: 5%;
     font-size: 180%;
+    display: inline;
 }
 
 #cardWrapper div {
     display: flex;
-    width: 700px;
+    width: 590px;
+    
 }
 
 #s1 {
@@ -147,8 +149,9 @@ ul li:hover {
 }
 
 #cardWrapper2 {
-    display: flex;
-    justify-content: right;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
     margin-left: 150px;
     flex-wrap: wrap;
     margin-right: 10px;
@@ -159,38 +162,54 @@ ul li:hover {
 
 #section2 {
     border: 2px solid rgb(255, 255, 255);
-    width: 170px;
-    height: 220px;
     border-radius: 10px;
     flex-shrink: 0;
-    margin-bottom: 7%;
-    padding: 1%;
+    margin: 15px;
     background-size: cover;
+    width: 188px;
+    height: 245px;
+    
     
 }
 
 .section1 {
     background-image: url('../misc/filmcover1.jpg');
+    
 }
 
 .section2 {
     background-image: url('../misc/bild.jpg');
+   
 }
 
 .section3 {
     background-image: url('../misc/bild2.jpg');
+   
 }
 
 .section4 {
     background-image: url('../misc/bild3.jpg');
+   
 }
 
 .section5 {
     background-image: url('../misc/bild4.jpg');
+    
 }
 
 .section6 {
     background-image: url('../misc/bild5.jpg');
+    
+}
+
+.section7 {
+    background-image: url('../misc/filmomslag3.jpg');
+    
+}
+
+.section8 {
+    background-image: url('../misc/filmcover5.jpg');
+    
 }
 
 
@@ -214,6 +233,43 @@ ul li:hover {
     padding: 10px;
     border-radius: 5px;
 }
+
+#sec1 {
+    background-image: url('../misc/filmcover1.jpg');
+    background-size: cover;
+    
+}
+
+.main3 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+}
+
+p {
+    font-size: x-large;
+}
+
+
+.betyg {
+    color: goldenrod;
+    font-size: x-large;
+}
+
+.textcontainer{
+    display: flex;
+    flex-direction: column;
+   
+}
+.art1{
+    font-size: large;
+    color:#ebe5e5;
+    margin-top: 15px;
+    max-width:300px;
+}
+
 
 
 
