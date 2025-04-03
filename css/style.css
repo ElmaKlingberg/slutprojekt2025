@@ -3,7 +3,7 @@
 #container {
     display: grid;
     min-width: 100vh;
-    grid-template-rows: 11% 3% 70% 16%;
+    grid-template-rows: 11% 3% 80% 16%;
     grid-template-areas: 
     'hd hd hd hd'
     'nv nv nv nv'
@@ -18,7 +18,7 @@
 
 header {
     grid-area: hd;
-    background-color: rgb(240, 230, 220);
+    background-color: #f0e6dc;
     font-size:330%;
     display: flex;
     justify-content: center;
@@ -37,7 +37,7 @@ nav {
 
 footer {
     grid-area: ft;
-    background-color: rgb(47, 15, 15);
+    background-color: #2f0f0f;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -47,7 +47,7 @@ footer {
 
 main {
     grid-area: mn;
-    background-color: rgb(103, 32, 32);
+    background-color: #672020;
     display: flex;
     flex-wrap: wrap;
     
@@ -262,20 +262,21 @@ ul li:hover {
 }
 
 .delare{
-    margin: 0 5 px;
+    margin: 0.5px;
     color: rgb(206, 198, 198);
 }
 
 .film-beskrivning{
-    font-size: 14px;
+    font-size: 15px;
     margin-top: 5px;
+    margin-bottom: 20px;
+    max-width: 330px;
 }
 
 .main3 {
    display: flex;
    justify-content: center;
    align-items: center;
-   height: 100vh;
    margin: 0;
 }
 
@@ -290,8 +291,8 @@ p {
 
 
 .betyg {
-    color: goldenrod;
-    font-size: x-large;
+    color: #daa520;
+    font-size: xx-large;
 }
 
 .textcontainer{
