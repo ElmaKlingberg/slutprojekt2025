@@ -89,6 +89,7 @@ section {
 #s1 {
     background-image: url(../misc/filmcover1.jpg);
     background-size: cover;
+    
 }
 
 #s2 {
@@ -142,6 +143,7 @@ h1 {
     text-align: center;
     padding-top: 10%;
     padding-bottom: 8%;
+    color: #ffffff;
 }
 
 ul li:hover {
@@ -235,9 +237,38 @@ ul li:hover {
 }
 
 #sec1 {
+    width: 250px;
+    height: 360px;
     background-image: url('../misc/filmcover1.jpg');
     background-size: cover;
+    background-position: center;
+    border: 1px solid #fff;
     
+}
+
+.film-kort{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    width: fit-content;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 16px;
+}
+
+.delare{
+    margin: 0 5 px;
+    color: rgb(206, 198, 198);
+}
+
+.film-beskrivning{
+    font-size: 14px;
+    margin-top: 5px;
 }
 
 .main3 {
@@ -250,6 +281,7 @@ ul li:hover {
 
 p {
     font-size: x-large;
+    color: #ffffff;
 }
 
 .p1{
@@ -284,10 +316,12 @@ p {
     margin-left: 20px;
 }
 
-.rubrik{
-    font-size: x-large;
+h2{
+    font-size: 35px;
     color: #ffffff;
     text-align: center;
+    margin-top: 50px;
+    
 }
 
 

@@ -5,5 +5,6 @@ function toggleMenu() {
     checklist.classList.toggle("gomd");
 }
 
-toggle.addEventListener("click",toggleMenu);
+toggle.addEventListener("click",toggleMenu); 
+//tagit hjälp av chat gpt 
 
